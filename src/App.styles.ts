@@ -44,7 +44,7 @@ export const Wrapper = styled.div`
     filter: drop-shadow(2px 2px #0085a3);
     font-size: 70px;
     text-align: center;
-    margin: 20px;
+    margin: 20px; 
   }
   .start, .next {
     cursor: pointer;

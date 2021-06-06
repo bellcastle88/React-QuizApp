@@ -89,14 +89,14 @@ const App: React.FC = () => {
             userAnswer={userAnswers ? userAnswers[number] : undefined}
             callback={checkAnswer}
           />
-        )}
+        )} 
         {!gameOver && !loading && userAnswers.length === number + 1 && number !== TOTAL_QUESTIONS - 1 ? (
           <button className='next' onClick={nextQuestion}>
             Next Question
           </button>
         ) : null}
       </Wrapper>
-    </>
+    </> 
   );
 };
 
